@@ -22,7 +22,7 @@ namespace Быки_и_коровы
 
 		private bool Check_Win()
 		{
-			return tbNumber.Text == secret_number;
+			return tbNumber.Text == secret_number; 
 		}
 
 		private bool Check_Bull()
