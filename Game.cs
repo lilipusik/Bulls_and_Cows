@@ -27,7 +27,7 @@ namespace Быки_и_коровы
 
 		private bool Check_Bull()
 		{
-			return new List<int>() { 0, 1, 2, 3 }.Any(x => secret_number[x] == tbNumber.Text[x]);
+			return Enumerable.Range(0, 4).Any(x => secret_number[x] == tbNumber.Text[x]);
 		}
 
 		private bool Check_Cow()
